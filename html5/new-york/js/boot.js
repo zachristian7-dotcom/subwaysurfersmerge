@@ -82,7 +82,7 @@
           return null
       }, window.GAME_CONFIG || (window.GAME_CONFIG = {
           fastplay: !1
-      }), loadJson("assets/data/config.json", function(t) {
+      }), loadJson("html5/new-york/assets/data/config.json", function(t) {
           var e, n, a, o = function() {
               var e = location.search.slice(location.search.indexOf("?") + 1).split("&"),
                   n = {};
