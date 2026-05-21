@@ -74,7 +74,7 @@
 
       function initApp(e) {
           var n, t, a;
-          n = e.meta, t = pathJoin(n.path, n.splash), (a = document.querySelector("#og-game-holder")).style.backgroundColor = n.color, a.style.backgroundImage = 'url("' + t + '?v=1gefx1jwdk0gj12hb"")', loadFont("new-york/assets/font/lilita-one.css", "Lilita One"), loadFont("new-york/assets/font/titan-one.css", "Titan One"), window.sharedAppData.config.leaderboards && loadScript("new-york/js/leaderboard.js"), window.sharedAppData.config.vconsole && loadScript("https://cdnjs.cloudflare.com/ajax/libs/vConsole/3.3.0/vconsole.min.js"), loadScript("new-york/js/inflate.min.js"), loadScript("new-york/js/new-york/js/vendor.js"), loadScript("new-york/js/main.js")
+          n = e.meta, t = pathJoin(n.path, n.splash), (a = document.querySelector("#og-game-holder")).style.backgroundColor = n.color, a.style.backgroundImage = 'url("' + t + '?v=1gefx1jwdk0gj12hb"")', loadFont("new-york/assets/font/lilita-one.css", "Lilita One"), loadFont("new-york/assets/font/titan-one.css", "Titan One"), window.sharedAppData.config.leaderboards && loadScript("new-york/js/leaderboard.js"), window.sharedAppData.config.vconsole && loadScript("https://cdnjs.cloudflare.com/ajax/libs/vConsole/3.3.0/vconsole.min.js"), loadScript("new-york/js/inflate.min.js"), loadScript("new-york/js/vendor.js"), loadScript("new-york/js/main.js")
       }
       console.log = function() {
           return null
