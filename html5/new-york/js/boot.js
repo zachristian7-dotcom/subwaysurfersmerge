@@ -101,7 +101,7 @@
   };
 
   // Load game config
-  loadJson("html5/new-york/assets/data/config.json", (config) => {
+  loadJson("new-york/assets/data/config.json", (config) => {
     const queryParams = (() => {
       const params = {};
       const raw = location.search
